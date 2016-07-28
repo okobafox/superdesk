@@ -68,7 +68,7 @@ and make sure you can run [docker without sudo](http://askubuntu.com/questions/4
 ###### install docker compose and run app
 
 ```sh
-$ git clone https://github.com/superdesk/superdesk.git
+$ git clone https://github.com/okobafox/superdesk.git
 $ cd superdesk
 $ git clone https://github.com/superdesk/superdesk-content-api.git
 $ ./scripts/docker-local-demo.sh

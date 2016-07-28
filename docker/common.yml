@@ -23,11 +23,11 @@ elastic:
   volumes:
    - ../data/elastic:/usr/share/elasticsearch/data
 
-postfix:
-  image: catatnight/postfix
-  environment:
-  - maildomain=mail.sourcefabric.org
-  - smtp_user=user:pwd
+#postfix:
+ # image: catatnight/postfix
+ # environment:
+  #- maildomain=mail.sourcefabric.org
+  #- smtp_user=user:pwd
 
 superdesk:
   build: ../

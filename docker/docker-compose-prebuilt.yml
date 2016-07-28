@@ -48,10 +48,10 @@ superdesk:
    - postfix
    - pubapi
   environment:
-   - SUPERDESK_URL=http://localhost:8080/api
-   - SUPERDESK_WS_URL=ws://localhost:8080/ws
-   - PUBLICAPI_URL=http://localhost:8080/pubapi
-   - SUPERDESK_CLIENT_URL=http://localhost:8080
+   - SUPERDESK_URL=http://172.16.20.36:8080/api
+   - SUPERDESK_WS_URL=ws://172.16.20.36:8080/ws
+   - PUBLICAPI_URL=http://172.16.20.36:8080/pubapi
+   - SUPERDESK_CLIENT_URL=http://172.16.20.36:8080
   ports:
    - "8080:80"
   volumes:
@@ -69,7 +69,7 @@ pubapi:
    - postfix
   image: sourcefabric/superdesk-content-api:master
   environment:
-   - SUPERDESK_URL=http://localhost:8080/api
-   - SUPERDESK_WS_URL=ws://localhost:8080/ws
-   - PUBLICAPI_URL=http://localhost:8080/pubapi
-   - SUPERDESK_CLIENT_URL=http://localhost:8080
+   - SUPERDESK_URL=http://172.16.20.36:8080/api
+   - SUPERDESK_WS_URL=ws://172.16.20.36:8080/ws
+   - PUBLICAPI_URL=http://172.16.20.36:8080/pubapi
+   - SUPERDESK_CLIENT_URL=http://172.16.20.36:8080

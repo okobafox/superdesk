@@ -53,12 +53,12 @@ superdesk:
    - AMAZON_SECRET_ACCESS_KEY
    - REUTERS_USERNAME
    - REUTERS_PASSWORD
-   - MAIL_SERVER=postfix
-   - MAIL_PORT=25
+   - MAIL_SERVER=smtp-pulse.com
+   - MAIL_PORT=2525
    - MAIL_USE_TLS=false
    - MAIL_USE_SSL=false
-   - MAIL_USERNAME=user
-   - MAIL_PASSWORD=pwd
+   - MAIL_USERNAME=mpashokenya@gmail.com
+   - MAIL_PASSWORD=2BFkQaffWbkL
    - SENTRY_DSN
    - VIEW_DATE_FORMAT
    - VIEW_TIME_FORMAT
@@ -86,12 +86,12 @@ pubapi:
    - AMAZON_SECRET_ACCESS_KEY
    - REUTERS_USERNAME
    - REUTERS_PASSWORD
-   - MAIL_SERVER=postfix
-   - MAIL_PORT=25
+   - MAIL_SERVER=smtp-pulse.com
+   - MAIL_PORT=2525
    - MAIL_USE_TLS=false
    - MAIL_USE_SSL=false
-   - MAIL_USERNAME=user
-   - MAIL_PASSWORD=pwd
+   - MAIL_USERNAME=mpashokenya@gmail.com
+   - MAIL_PASSWORD=2BFkQaffWbkL
    - SENTRY_DSN
    - SUPERDESK_URL=http://172.16.20.36/api
    - PUBLICAPI_URL=http://172.16.20.36/pubapi

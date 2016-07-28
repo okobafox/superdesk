@@ -22,7 +22,7 @@ pip install -r $WORK_DIR/../docker/requirements.txt
 
 echo '
 |==================================================================|
-|open in browser "http://localhost:8080" after server will be ready|
+|open in browser "http://<host_server_ip>:8080" after server will be ready|
 |                                                                  |
 |       if you can not log in you probably need to run             |
 |       "./docker-local-create-user.sh"                            |
